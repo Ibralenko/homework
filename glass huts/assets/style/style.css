@@ -1,0 +1,228 @@
+.g-content {
+    max-width: 1408px;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.08);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__image {
+    height: 65px;
+    width: 70.26px;
+}
+
+.last::after {
+    content: url(/assets/image/svg/flag.svg);
+    margin-left: 25px;
+
+}
+
+.header__menu {
+    display: flex;
+}
+
+.header__menu-item {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 36px;
+}
+
+.header__menu-link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+}
+
+.header__btn {
+    background-color: rgba(91, 100, 96, 1);
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    border: 1px solid rgba(91, 100, 96, 1);
+    transition: .2s;
+    cursor: pointer;
+}
+
+
+.hero {
+    position: relative;
+    height: 700px;
+    width: 1408px;
+    margin-bottom: 150px;
+    background-image: url(/assets/image/png/background.png);
+}
+
+.hero__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 72px;
+    text-align: right;
+    color: #FFFFFF;
+    position: absolute;
+    height: 72px;
+    right: 1%;
+    top: 7%;
+}
+
+.hero__text {
+    position: absolute;
+    height: 84px;
+    left: 69.88%;
+    top: 28%;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero__right-btn {
+    position: absolute;
+    width: 33.03px;
+    height: 15px;
+    left: 730.97px;
+    top: 600px;
+    border: none;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.hero__left-btn {
+    position: absolute;
+    width: 33px;
+    left: 646.03px;
+    top: 600px;
+    border: none;
+    background: rgba(0, 0, 0, 0.0);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+
+
+
+
+
+
+
+/***** location */
+.location-forest {
+    position: relative;
+    width: 1408px;
+
+}
+
+
+.location__image {
+    width: 704px;
+    height: 650px;
+    background: #3E443E;
+    opacity: 0.7;
+
+}
+
+.location__image-background {
+    background: #3E443E;
+    opacity: 0.4;
+}
+
+.location__image-btn {
+    width: 96px;
+    height: 96px;
+    left: 304px;
+    top: 2352px;
+
+    background: #FFFFFF;
+}
+
+.About-Forest {
+    width: 704px;
+    height: 650px;
+    background: #E9ECE0;
+    position: absolute;
+    width: 704px;
+    height: 650px;
+    left: 700px;
+    top: 0px;
+}
+
+.About-Fotest__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.About-Forest__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #5B6460;
+    margin-left: 110px;
+    margin-top: 150px;
+}
+
+.About-Forest__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #333333;
+    margin-left: 110px;
+    margin-top: 50px;
+}
+
+.About-Forest__link-container {
+    position: relative;
+}
+
+.About-Forest__link {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5B6460;
+    margin-left: 110px;
+
+}
+
+.About-Forest__link-line {
+    width: 75px;
+    height: 0px;
+    left: 814px;
+    top: 2574px;
+    color: #5B6460;
+    margin-left: 110px;
+}
+
+
+
+.Facalities {
+    width: 1408px;
+    height: 971px;
+    background: #5B6460;
+}
