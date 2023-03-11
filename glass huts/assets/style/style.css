@@ -133,6 +133,7 @@
 
 
 .location__image {
+    position: relative;
     width: 704px;
     height: 650px;
     background: #3E443E;
@@ -146,12 +147,40 @@
 }
 
 .location__image-btn {
+    position: absolute;
+    width: 176px;
+    height: 176px;
+    left: 264px;
+    top: 252px;
+    background: #FFFFFF;
+    opacity: 0.15;
+    border-radius: 90px;
+}
+
+.location__image-btn2 {
+    position: absolute;
+    width: 134px;
+    height: 134px;
+    left: 285px;
+    top: 273px;
+}
+
+.location__image-btn3 {
+    position: absolute;
     width: 96px;
     height: 96px;
-    left: 304px;
-    top: 2352px;
+    left: 305px;
+    top: 293px;
+}
 
-    background: #FFFFFF;
+.location__btn {
+    position: absolute;
+    left: 315px;
+    top: 318px;
+    color: #333333;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
 }
 
 .About-Forest {
@@ -224,5 +253,83 @@
 .Facalities {
     width: 1408px;
     height: 971px;
+    background-color: #5B6460;
+    margin: 0;
+
+}
+
+.Facilities__section {
+    background-color: #5B6460;
+    height: 971px;
+    display: flex;
+
+}
+
+.Facilities__title {}
+
+.Facilities__flex-container {
     background: #5B6460;
+    display: flex;
+    margin-top: 300px;
+}
+
+.Facilities__list {
+    position: relative;
+    list-style-type: none;
+    display: flex;
+    margin-right: 133px;
+
+}
+
+.list {
+    margin-left: 130px;
+}
+
+.Facilities__item-1::before {
+    content: url(/assets/image/svg/icons/fridj.svg);
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: -85px;
+}
+
+
+.Facilities__item-2::before {
+    content: url(/assets/image/svg/icons/kitchen.svg);
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: -85px;
+}
+
+.Facalities__item-3 {
+    margin-right: 130px;
+}
+
+.Facilities__item-3::before {
+    content: url(/assets/image/svg/icons/coffe.svg);
+    position: absolute;
+    top: -85px;
+    width: 70px;
+    height: 70px;
+}
+
+.Facilities__item-4 {
+    margin-left: 130px;
+}
+
+.Facilities__item-4::before {
+    content: url(/assets/image/svg/icons/tea.svg);
+    position: absolute;
+    top: -85px;
+    width: 70px;
+    height: 70px;
+}
+
+.Facilities__item-5::before {
+    content: url(/assets/image/svg/icons/parking.svg);
+    position: absolute;
+    top: -85px;
+    width: 70px;
+    height: 70px;
 }
