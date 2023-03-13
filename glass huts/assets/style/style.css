@@ -132,14 +132,14 @@
 /***** location */
 .location-forest {
     position: relative;
-    width: 1408px;
+    max-width: 1408px;
 
 }
 
 
 .location__image {
     position: relative;
-    width: 704px;
+    max-width: 704px;
     height: 650px;
     background: #3E443E;
     opacity: 0.7;
@@ -153,7 +153,7 @@
 
 .location__image-btn {
     position: absolute;
-    width: 176px;
+    max-width: 176px;
     height: 176px;
     left: 264px;
     top: 252px;
@@ -164,7 +164,7 @@
 
 .location__image-btn2 {
     position: absolute;
-    width: 134px;
+    max-width: 134px;
     height: 134px;
     left: 285px;
     top: 273px;
@@ -189,8 +189,6 @@
 }
 
 .About-Forest {
-    width: 704px;
-    height: 650px;
     background: #E9ECE0;
     position: absolute;
     width: 704px;
@@ -458,7 +456,7 @@
 
     .location-forest {
 
-        max-width: 480px;
+        width: 480px;
         display: flex;
         flex-direction: column;
 
@@ -466,95 +464,8 @@
 
     .location__image {
         position: relative;
-        max-width: 480px;
-        max-height: 650px;
+        width: 480px;
+        height: 650px;
         background: #3E443E;
         opacity: 0.7;
     }
-
-    .location__image-btn {
-        position: absolute;
-        width: 176px;
-        height: 176px;
-        left: 264px;
-        top: 252px;
-        background: #FFFFFF;
-        opacity: 0.15;
-        border-radius: 90px;
-    }
-
-    .location__image-btn2 {
-        position: absolute;
-        width: 134px;
-        height: 134px;
-        left: 285px;
-        top: 273px;
-    }
-
-    .location__image-btn3 {
-        position: absolute;
-        width: 96px;
-        height: 96px;
-        left: 305px;
-        top: 293px;
-    }
-
-    .location__btn {
-        position: absolute;
-        left: 315px;
-        top: 318px;
-        color: #333333;
-        font-size: 12px;
-        line-height: 16px;
-        text-transform: uppercase;
-    }
-
-    .About-Forest {
-        max-width: 480px;
-        height: 650px;
-        background: #E9ECE0;
-        position: absolute;
-        left: 700px;
-        top: 0px;
-    }
-
-    .About-Fotest__container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .About-Forest__title {
-        font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 40px;
-        line-height: 40px;
-        color: #5B6460;
-        margin-left: 110px;
-        margin-top: 150px;
-    }
-
-    .About-Forest__text {
-        font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 16px;
-        line-height: 30px;
-        color: #333333;
-        margin-left: 110px;
-        margin-top: 50px;
-    }
-
-    .Facalities {
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 480px;
-        margin: 0;
-        height: 971px;
-        background-color: #5B6460;
-        margin: 0;
-        margin-left: 0;
-
-    }
-}
