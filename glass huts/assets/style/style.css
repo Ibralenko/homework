@@ -66,7 +66,12 @@
     height: 700px;
     width: 1408px;
     margin-bottom: 150px;
-    background-image: url(/assets/image/png/background.png);
+    /* background-image: url(/assets/image/png/background.png); */
+}
+
+.hero__background-image {
+    height: 700px;
+    max-width: 1408px;
 }
 
 .hero__title {
@@ -79,15 +84,15 @@
     color: #FFFFFF;
     position: absolute;
     height: 72px;
-    right: 1%;
-    top: 7%;
+    right: 10%;
+    top: 13%;
 }
 
 .hero__text {
     position: absolute;
     height: 84px;
     left: 69.88%;
-    top: 28%;
+    top: 35%;
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 400;
@@ -414,136 +419,33 @@
     height: 70px;
 }
 
-@media (min-height: 1024px) and (max-width: 1920px) {
+
+@media (max-height: 480px) {
+
+
+    .header {
+        background-color: rgba(255, 255, 255, 1);
+        box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.08);
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
     .hero {
         position: relative;
-        height: 700px;
-        width: 1408px;
-        margin-bottom: 150px;
-        background-image: url(/assets/image/png/background.png);
-    }
-
-    .hero__title {
-        font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 70px;
-        line-height: 72px;
-        text-align: right;
-        color: #FFFFFF;
-        position: absolute;
-        height: 72px;
-        right: 1%;
-        top: 7%;
-    }
-
-    .hero__text {
-        position: absolute;
-        height: 84px;
-        left: 69.88%;
-        top: 28%;
-        font-family: 'Mulish';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 28px;
-        text-align: center;
-        color: #FFFFFF;
-    }
-
-    .hero__right-btn {
-        position: absolute;
-        width: 33.03px;
-        height: 15px;
-        left: 730.97px;
-        top: 600px;
-        border: none;
-        transform: matrix(-1, 0, 0, 1, 0, 0);
-    }
-
-    .hero__left-btn {
-        position: absolute;
-        width: 33px;
-        left: 646.03px;
-        top: 600px;
-        border: none;
-        background: rgba(0, 0, 0, 0.0);
-        transform: matrix(-1, 0, 0, 1, 0, 0);
-    }
-
-
-}
-
-@media (min-height: 720px) and (max-width: 1023px) {
-    .hero {
-        position: relative;
-        height: 700px;
-        max-width: 1023px;
-        background-image: url(/assets/image/png/background.png);
-    }
-
-    .hero__title {
-        font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 70px;
-        line-height: 72px;
-        text-align: right;
-        color: #FFFFFF;
-        position: absolute;
-        height: 72px;
-        right: 1%;
-        top: 7%;
-    }
-
-    .hero__text {
-        position: absolute;
-        height: 84px;
-        left: 69.88%;
-        top: 28%;
-        font-family: 'Mulish';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 28px;
-        text-align: center;
-        color: #FFFFFF;
-    }
-
-    .hero__right-btn {
-        position: absolute;
-        width: 33.03px;
-        height: 15px;
-        left: 730.97px;
-        top: 600px;
-        border: none;
-        transform: matrix(-1, 0, 0, 1, 0, 0);
-    }
-
-    .hero__left-btn {
-        position: absolute;
-        width: 33px;
-        left: 646.03px;
-        top: 600px;
-        border: none;
-        background: rgba(0, 0, 0, 0.0);
-        transform: matrix(-1, 0, 0, 1, 0, 0);
-    }
-
-}
-
-@media (min-height: 320px) and (max-height: 719px) {
-    .g-content {
-        max-width: 480px;
         margin: 0;
+        max-height: 896px;
+        max-width: 414px;
+        margin-bottom: 30px;
+        /* background-image: url(/assets/image/png/background.png); */
     }
 
-    .hero {
-        position: relative;
-        height: 320px;
-        width: 900px;
-        margin-bottom: 0px;
-        background-image: url(/assets/image/png/background.png);
+    .hero__background-image {
+        max-height: 700px;
+        max-width: 480px;
     }
 
     .hero__title {
@@ -554,5 +456,105 @@
         font-size: 1em;
     }
 
+    .location-forest {
 
+        max-width: 480px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .location__image {
+        position: relative;
+        max-width: 480px;
+        max-height: 650px;
+        background: #3E443E;
+        opacity: 0.7;
+    }
+
+    .location__image-btn {
+        position: absolute;
+        width: 176px;
+        height: 176px;
+        left: 264px;
+        top: 252px;
+        background: #FFFFFF;
+        opacity: 0.15;
+        border-radius: 90px;
+    }
+
+    .location__image-btn2 {
+        position: absolute;
+        width: 134px;
+        height: 134px;
+        left: 285px;
+        top: 273px;
+    }
+
+    .location__image-btn3 {
+        position: absolute;
+        width: 96px;
+        height: 96px;
+        left: 305px;
+        top: 293px;
+    }
+
+    .location__btn {
+        position: absolute;
+        left: 315px;
+        top: 318px;
+        color: #333333;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+    }
+
+    .About-Forest {
+        max-width: 480px;
+        height: 650px;
+        background: #E9ECE0;
+        position: absolute;
+        left: 700px;
+        top: 0px;
+    }
+
+    .About-Fotest__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .About-Forest__title {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 40px;
+        color: #5B6460;
+        margin-left: 110px;
+        margin-top: 150px;
+    }
+
+    .About-Forest__text {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 30px;
+        color: #333333;
+        margin-left: 110px;
+        margin-top: 50px;
+    }
+
+    .Facalities {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 480px;
+        margin: 0;
+        height: 971px;
+        background-color: #5B6460;
+        margin: 0;
+        margin-left: 0;
+
+    }
 }
